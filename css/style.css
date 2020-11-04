@@ -1,0 +1,15 @@
+
+body {
+	background-image: url('../abstract.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Dancing Script', cursive;
+	padding: 15px;
+	font-size: 50px;
+	text-align: center;
+}
+
+h1 {
+	margin: 20px 0 0 20px;
+	padding: 20px 0 0 20px;
+}

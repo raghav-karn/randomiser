@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Random Life</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+
+		<script>
+		
+			// Our List of places
+			var places = [
+				'Apple-Store',
+				'China',
+				'Underwater',
+				'Jurrasic Period',
+				'African Safari',
+				'Nowhere'
+			];
+
+			// Our List of Friends
+			var friends = [
+				'Steve Jobs',
+				'Xi Jin Ping',
+				'Joe Biden',
+				'T-Rex',
+				'Nelson Mandela',
+				'Donald J. Trump'
+			];
+
+			var randomNumber = Math.floor(Math.random()*places.length);
+			
+			var place = places[randomNumber];
+			var friendname = friends[randomNumber];
+
+			document.write("How about you go to <strong><br>" + place + "<br></strong> with <strong><br>" + friendname + "</strong>?");
+
+			
+
+		
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
